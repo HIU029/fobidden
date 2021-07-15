@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FAF8F8;
+}
+.fixClear{
+    zoom:1;
+}
+.fixClear::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.f_left{
+    float: left;
+}
+.f_right{
+    float: right;
+}
